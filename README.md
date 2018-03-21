@@ -7,6 +7,10 @@ Run the following command:
 composer require kryptonit3/counter:5.2.*
 ```
 
+Laravel 5.5 uses Package Auto-Discovery, so doesn't require you to manually add the ServiceProvider.
+
+If you don't use auto-discovery, add the ServiceProvider to the providers array in config/app.php
+
 Add the following to your `config\app.php` Service Providers
 
 ```php
